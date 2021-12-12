@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dip">
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCalories"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvTotalFat"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvTransFat"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvProtein"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCholesterol"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvFiber"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSodium"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "918289158893",
+    "firebase_url": "https://myfitnessfriend-1b40f.firebaseio.com",
+    "project_id": "myfitnessfriend-1b40f",
+    "storage_bucket": "myfitnessfriend-1b40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918289158893:android:b800d25f5284d5fabb72e4",
+        "android_client_info": {
+          "package_name": "edu.sjsu.android.myfitnessfriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918289158893-uohmapc2f2bhlhjgalbr9rese6j13j4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.sjsu.android.myfitnessfriend",
+            "certificate_hash": "94bc2685a11e0300599daa8949cca91c8ff97570"
+          }
+        },
+        {
+          "client_id": "918289158893-io88ktpf951tsjhn5fqu61melg1m50bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrGGcs00X9oqeKKeZxVcuf3Q_jfHdM8x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918289158893-io88ktpf951tsjhn5fqu61melg1m50bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

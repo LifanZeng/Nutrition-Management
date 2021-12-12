@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C42E2E2E"
+    tools:context=".CalorieGetter"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/results"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_above="@+id/enter"
+        android:layout_weight="1"
+        />
+
+    <EditText
+        android:id="@+id/calCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:hint="Enter the calories"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BAFFFFFF" />
+    <EditText
+        android:id="@+id/carbCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:hint="Enter the carbs"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BAFFFFFF" />
+    <EditText
+        android:id="@+id/fatCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter the fat"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BAFFFFFF" />
+    <EditText
+        android:id="@+id/proteinsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:hint="Enter the protein"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BAFFFFFF" />
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:text="Enter"
+        android:layout_centerHorizontal="true"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
